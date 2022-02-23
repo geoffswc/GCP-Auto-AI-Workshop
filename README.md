@@ -1,7 +1,7 @@
 # GCP-Machine-Learning-API-Workshop
 
 ### Short Description
-This tutorial is an introduction to extracting, classifying, and assessing sentiment for text from image documents using the Google Colab and the Google Cloud Platform API.
+This tutorial is an introduction to extracting, classifying, and assessing sentiment for text from image and video documents using the Python and the Google Cloud Platform API.
 
 ### Long Description
 This workshop will review how to use Python, along with the Google AutoML API, to perform common machine learning and natural laanguage processing tasks using pre-trained models and methods. This workshop is designed to get researchers who are comfortable with python programming up and running with google cloud services for machine learning and natural language processing. 
@@ -10,11 +10,11 @@ In this workshop, participants will:
 
 1) Set up a google cloud account and enable services from the vision and language AutoML Apis
 2) Use AutoML vision and translation APIs to extract text transcripts from image, audio, and video files
-3) Use AutomL languaage APIs to assessing sentiment and category for text documents
+3) Use AutoML language APIs to assessing sentiment and category for text documents
 
 ### Prerequisites
 
-Participants should have basic introductory level Python programming skills, including the ability to write loops, conditionals, and methods. Familiarity with pandas is helpful but not required. 
+Participants should have basic introductory level Python programming skills, including the ability to write loops, conditionals, and methods. Familiarity with pandas and JSON is helpful but not required. 
 
 ### Setup and Configuration
 
@@ -35,21 +35,30 @@ https://cloud.google.com/vision/docs/setup
 
 ## Workbooks
 
-### Extraction-Sentiment-Category.ipynb
+### Extract_Text_From_Image.ipynb
 
-This workbook reviews the process of connecting to the Google Cloud Console, generating an API key, and using it to call the text extraction, sentiment analysis, and document classification services available through the Google Cloud Discovery API.
+Use the Vision API to extract text from image files. Translate typed text, hand printed text, and cursive text. Review transcription accuracy and confidence levels. 
 
-### Intro-Notebook-Covid-19-data.ipynb
+### Extract_Transcript_From_Flac.ipynb
 
-Introduction to working with CORD-19 research data kaggle using GCP tools
+Use the Speech API to extract a transcript from an audio (flac) file hosted on google cloud strorage. 
 
-### Covid-19-Sentiment-Category.ipynb
+### Extract_Transcript_From_MP4.ipynb
 
-Analyizing multiple documents from the CORD-19 dataset using GCP tools
+Download an MP4 file from a web address. Use ffmpeg to convert the MP4 Upload to flac. Upload flac file to google cloud storage. Extract transcript from flac file. 
 
-### External Links
+### Predict_Text_Sentiment_And_Category.ipynb
 
-For a fuller description of the discovery API, including audio translation and other examples:
+Use the Language API to 1) assess the sentiment for a text document, 2) predict the document classification probabilities for a document. 
 
-https://colab.research.google.com/drive/1hPH7skySCZR-ZMJ6TmYLN1ug6vbq2cpb
+### Extract_Transcript_From_YouTube.ipynb
+
+Read transcript from video hosted on YouTube using the python youtube_transcript_api module. Note that this approach does not require setting up a google cloud account. It may be a good option for researchers who wish to analyze existing youtube videos or who are willing to upload their material to youtube (as public or unlisted links). 
+
+## External Links
+
+Google AutoML documentation
+
+https://cloud.google.com/automl
+
 
