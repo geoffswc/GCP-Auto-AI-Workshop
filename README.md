@@ -4,27 +4,21 @@
 This tutorial is an introduction to extracting, classifying, and assessing sentiment for text from image documents using the Google Colab and the Google Cloud Platform API.
 
 ### Long Description
-This workshop will review how to use Python, along with Google Colab and the Google Cloud Discovery API, to perform common machine learning and natural laanguage processing tasks using pre-trained models and methods.
+This workshop will review how to use Python, along with the Google AutoML API, to perform common machine learning and natural laanguage processing tasks using pre-trained models and methods. This workshop is designed to get researchers who are comfortable with python programming up and running with google cloud services for machine learning and natural language processing. 
 
-In this workshop, participants will create three documents, each written in a different style: typed, hand printed, and cursive. Participants will capture these files as images, upload them to a github repository, and use the Google Cloud Discovery API to:
+In this workshop, participants will:
 
-1) Extract the text from the image document, using the TEXT_DETECTION method from the translate API.
-
-2) Determine the sentiment of the document by using a pre-trained model available from the language API.
-
-3) Classify the document through a set of pre-trained categories ("media", "sports", "health"), along with the estimated probabily that the classification is an accurate match, using the classification service from the language API.
+1) Set up a google cloud account and enable services from the vision and language AutoML Apis
+2) Use AutoML vision and translation APIs to extract text transcripts from image, audio, and video files
+3) Use AutomL languaage APIs to assessing sentiment and category for text documents
 
 ### Prerequisites
 
-Participants should have basic introductory level Python programming skills, including the ability to write loops, conditionals, and methods.
+Participants should have basic introductory level Python programming skills, including the ability to write loops, conditionals, and methods. Familiarity with pandas is helpful but not required. 
 
 ### Setup and Configuration
 
 Note: the free tier on all accounts below is sufficient for this workshop. 
-
-To use Google colab, participants will need a Google Drive account 
-
-https://www.google.com/drive/
 
 To use the AutoML services for text extraction, categorization, and sentiment analysis, participants will need a Google Cloud Platform account. 
 
@@ -37,10 +31,6 @@ https://cloud.google.com/vision/automl/docs/how-to
 Quick Start
 
 https://cloud.google.com/vision/docs/setup
-
-To use Colab and AutoML on kaggle workbooks and data sets, users will need a Kaggle account. Note - to use GCP tools on Kaggle workbooks, please sign in or register through your Google account. 
-
-https://www.kaggle.com
 
 
 ## Workbooks
