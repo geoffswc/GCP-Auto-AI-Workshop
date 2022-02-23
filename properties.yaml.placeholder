@@ -1,0 +1,2 @@
+google_application_credentials: "yourkeyfile.json"
+bucket_name: "yourbucketname"

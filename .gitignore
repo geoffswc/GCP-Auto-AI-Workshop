@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+*.yaml
+*.json
+*.mp4
+*.flac
