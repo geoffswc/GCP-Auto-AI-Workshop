@@ -22,7 +22,7 @@ Note: the free tier on all accounts below is sufficient for this workshop.
 
 To use the AutoML services for text extraction, categorization, and sentiment analysis, participants will need a Google Cloud Platform account. 
 
-https://colab.research.google.com/drive/1hPH7skySCZR-ZMJ6TmYLN1ug6vbq2cpb
+https://cloud.google.com/
 
 Overview on setting up a google project, generate an API key, and connect to the AutoML API servive
 
